@@ -7,9 +7,9 @@ It includes a formal policy, a practical checklist, and GitHub-ready templates.
 
 ## 📄 Contents
 
-- **GPT_Security_Template.pdf** → Formal security policy for GPTs.  
-- **GPT_Security_Checklist.md** → Interactive checklist for day-to-day hardening.  
-- **GPT_Security_GitHub_Template.md** → GitHub-friendly template with example prompts.  
+- **GPT_Security_Template.md** → Formal security policy example for GPTs.  
+- **GPT_Security_Checklist.md** → Interactive checklist for day-to-day hardening. Adjust as needed. 
+- **GPT_Security_GitHub_Template.md** → GitHub-friendly template with example prompts. Adjust as needed. 
 
 ---
 
