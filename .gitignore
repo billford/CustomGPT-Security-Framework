@@ -1,0 +1,38 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Environment / secrets
+.env
+.env.*
+
+# Test results (may contain sensitive API responses)
+results*.csv
+!example-results.csv
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Coverage / testing artifacts
+htmlcov/
+.coverage
+.pytest_cache/
+.mypy_cache/
