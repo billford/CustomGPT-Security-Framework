@@ -114,7 +114,7 @@ python3 run_redteam_py3.py redteam_prompts.csv results.csv \
 ### CLI flags
 
 - `prompts_csv` (positional) — path to input CSV (header tolerant: id, category, prompt, severity).
-- `results_csv` (positional) — output CSV path.
+- `results_csv` (positional) — output file path (CSV or JSON, see `--output-format`).
 - `--api-url` (required) — full URL to POST requests to.
 - `--api-key` — bearer token used as `Authorization: Bearer <key>`. Defaults to `OPENAI_API_KEY` environment variable.
 - `--model` — model name for chat-completions payloads (default: `gpt-4o-mini`).
@@ -124,6 +124,7 @@ python3 run_redteam_py3.py redteam_prompts.csv results.csv \
 - `--timeout` — HTTP request timeout seconds (default: `30`).
 - `--temperature` — sampling temperature for the model (default: `0.0`).
 - `--max-tokens` — maximum response tokens (default: `800`).
+- `--output-format` — output format: `csv` (default) or `json`.
 - `--dry-run` — validate CSV and print prompt count without making API calls.
 - `--verbose` — enable debug-level logging.
 
